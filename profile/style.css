@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Poppins&family=Spectral:wght@500&display=swap');
+
+* {
+    margin: 0; /* membuat jarak luar (antar objek) */
+    padding: 0; /* membuat jarak dalam (antar isi dengan kotak/element) */
+    font-family: 'Poppins', sans-serif; /* merubah font/jenis text menjadi poppins */
+}
+
+.bg {
+    background-image: url('background.jpg'); /* memasang sebuah gambar background */
+    background-size: cover; /* untuk membuat background menyesuaikan ukuran */
+    background-position: center; /* untuk membuat posisi gambar yang tampil di tengah */
+}
+
+.title {
+    color: #fff; /* menambah warna ke sebuah teks */
+    margin: 20px auto; /* membuat jarak luar (antar objek) */
+    text-align: center; /* membuat teks/element menjadi di tengah */
+}
+
+.photo {
+    width: 150px; /* menambahkan lebar sebuah element */
+    height: 150px; /* menambahkan tinggi sebuah element */
+    border-radius: 50%; /* membuat gambar/element tumpul */
+    border: 5px solid #fff; /* membuat garis luar pada sebuah element */
+}
+
+.centerbox {
+    width: 500px; /* menambahkan lebar sebuah element */
+    margin: 0 auto; /* membuat jarak luar (antar objek) */
+    padding: 40px; /* membuat jarak dalam (antar isi dengan kotak/element) */
+    color: #000; /* menambah warna ke sebuah teks */
+    background-color: rgb(245, 245, 220, .7); /* menambah warna ke sebuah background */
+    text-align: center; /* membuat teks/element menjadi di tengah */
+    border-radius: 25px; /* membuat gambar/element tumpul */
+}
+
+.content {
+    margin: 10px; /* menambahkan lebar sebuah element */
+}
