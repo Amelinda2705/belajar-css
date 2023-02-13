@@ -1,0 +1,87 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.conatiner {
+    width: 1024px;
+    margin: 0 auto;
+    border: 1px solid #000;
+}
+
+.a {
+    width: 100%;
+    height: 100px;
+    background-color: blue;
+}
+
+.b {
+    width: 50%;
+    height: 150px;
+    background-color: blueviolet;
+    float: left;
+}
+
+.c {
+    width: 50%;
+    height: 150px;
+    background-color: rgb(19, 239, 255);
+    float: right;
+}
+
+.d {
+    width: 33.3%;
+    height: 200px;
+    background-color: red;
+    float: left;
+}
+
+.e {
+    width: 33.3%;
+    height: 200px;
+    background-color: purple;
+    float: left;
+}
+
+.f {
+    width: 33.3%;
+    height: 200px;
+    background-color: yellow;
+    float: left;
+}
+
+
+.g {
+    width: 25%;
+    height: 200px;
+    background-color: rgb(226, 0, 170);
+    float: left;
+}
+
+.h {
+    width: 25%;
+    height: 200px;
+    background-color: rebeccapurple;
+    float: left;
+}
+
+.i {
+    width: 25%;
+    height: 200px;
+    background-color: rgb(226, 0, 170);
+    float: left;
+}
+
+.j {
+    width: 25%;
+    height: 200px;
+    background-color: rebeccapurple;
+    float: left;
+}
+
+.k {
+    width: 100%;
+    height: 100px;
+    background-color: blue;
+    clear: both;
+}
