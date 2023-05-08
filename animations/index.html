@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width initial-scale=1.0" />
+    <title>css animations</title>
+    <style>
+      div {
+        width: 100px;
+        height: 100px;
+        background-color: #3b7197;
+        position: relative;
+        animation: rect 5s 5;
+        animation-direction: alternate;
+        border-radius: 20px;
+      }
+
+      @keyframes rect {
+        0% {
+          background-color: #3b7197;
+          left: 0;
+          top: 0;
+        }
+        25% {
+          background-color: #4a8db7;
+          left: 200px;
+          top: 0;
+        }
+        50% {
+          background-color: #74bde0;
+          left: 200px;
+          top: 200px;
+        }
+        75% {
+          background-color: #a1e1fa;
+          left: 0;
+          top: 200px;
+        }
+        100% {
+          background-color: #4a8db7;
+          left: 0;
+          top: 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>css animations</h1>
+    <div></div>
+  </body>
+</html>
